@@ -1,0 +1,225 @@
+/* GLOBAL STYLES */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+    
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #666;
+}
+
+hr {
+	border-top: 2px solid #ddd;
+}
+
+.heading-custom {
+	margin-bottom: 4%;
+}
+
+.under-menu {
+    width: 100%;
+    height: 6em;
+}
+
+#wrapper {
+    max-width: 1198px;
+    margin: 0 auto;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+}
+/* NAVBAR */
+
+.navbar-fixed-top {
+    max-width: 1198px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-nav {
+	font-size: 1.2em;
+	margin-top: 1.5em;
+}
+
+.navbar .navbar-nav > li > a {
+	border: 1px solid transparent;
+}
+
+.navbar .navbar-nav > li > a:hover {
+	display: block;
+	color: #ddd;
+	border: 1px solid transparent;
+	border-color: #ddd;
+	border-radius: 5px;
+	transition: all 0.4s ease;
+}
+
+.navbar .navbar-nav > .active > a {
+	display: block;
+	color: #ddd;
+	border: 1px solid transparent;
+	border-color: #ddd;
+	border-radius: 5px;
+	background-color: #222;
+}
+
+
+.navbar .navbar-nav > .active > a:hover {
+	display: block;
+	background-color: #999;
+	color: #000;
+	border: 1px solid transparent;
+	border-color: #fff;
+	border-radius: 5px;
+}
+
+.navbar-brand {
+	height: 100%;
+}
+
+/* SLIDER */
+
+/*.slider-wrapper{
+	padding-top: 10%;
+}*/
+
+.item > img {
+	width: 100vw;
+}
+
+.carousel-indicators {
+	margin-bottom: 8%;
+}
+
+.carousel-caption {
+	margin-bottom: 10%;
+}
+
+/* OFFER */
+
+.offer-wrapper {
+	margin-top: 4%;
+}
+
+.offer-content {
+	text-align: center;
+	padding-bottom: 4%;
+	font-size: 1.3em;
+}
+
+.offer-content h2 {
+	margin: 5% 0;
+}
+
+.offer-button {
+	margin: 3% 0;
+}
+
+.offer-button:hover {
+    background-color: #337ab7;
+    color: #fff;
+}
+
+/* ABOUT */
+
+.about-row {
+	margin-bottom: 4%;
+}
+
+.about-text h2 {
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.about-text p {
+	font-size: 1.3em;
+	text-align: justify;
+	line-height: 1.5em;
+}
+
+/* MENU */
+.menu-wrapper {
+	margin-bottom: 4%;
+}
+.panel-default>.menu-panel-head {
+	background-color: #222;
+}
+
+.menu-panel-head a h3 {
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ddd;
+	font-size: 1.6em;
+}
+
+.menu-panel-head a:hover, .menu-panel-head a h3:hover {
+	text-decoration: none;
+	color: #337ab7;
+}
+
+.menu-panel-head a:focus {
+	text-decoration: none;
+}
+
+.panel-default {
+	font-size: 1.2em;
+}
+
+.panel-default h5 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/* CONTACT */
+
+.contact-wrapper {
+    margin-bottom: 4%;
+}
+
+.contact-adress {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.contact-adress>h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.contact-adress p a {
+    text-decoration: none;
+    color: #333;
+}
+
+.contact-adress p a:hover {
+    color: #337ab7;
+}
+
+/* FOOTER */
+
+.footer-wrapper {
+    background-color: #222;
+}
+
+.footer-content {
+    font-size: 1.3em;
+    text-align: center;
+    margin: 1.3em auto;
+    color: #999;
+}
+
+.footer-content p a {
+    color: #999;
+    text-decoration: none;
+}
+
+.footer-content p a:hover {
+    color: #337ab7;
+}
+
+
